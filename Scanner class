@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class twostring {
+
+	public static void main(String[] args) {
+		String a,b;
+		int i;
+		float p;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter a integer:");
+		i=in.nextInt();
+		System.out.println(i);
+		
+		System.out.println("Enter a Float:");
+		p=in.nextFloat();
+		System.out.println(p);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter string 1:");
+		a=sc.nextLine();
+		System.out.println(a);
+		System.out.println("enter string 2:");
+		b=sc.nextLine();
+		System.out.println(b);
+		System.out.println(a+" "+b);
+		
+
+	}
+
+}
